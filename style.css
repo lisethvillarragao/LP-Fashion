@@ -1,0 +1,522 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#FFF9F2;
+}
+
+.top-bar{
+    background:#F8DCDC;
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+}
+
+nav{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#D8B26E;
+}
+
+ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:#444;
+}
+
+.icons{
+    font-size:20px;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:55px;
+    color:#E78C8C;
+}
+
+.hero-text p{
+    margin:20px 0;
+}
+
+button{
+    background:#F8B9B9;
+    border:none;
+    padding:12px 25px;
+    border-radius:20px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.btn-secondary{
+    background:white;
+    border:1px solid #F8B9B9;
+}
+
+.hero-image{
+    width:500px;
+    height:320px;
+    background:#E9D7D7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px;
+}
+
+.benefits{
+    display:flex;
+    justify-content:space-around;
+    background:white;
+    padding:20px;
+}
+
+.categories{
+    padding:50px;
+    text-align:center;
+}
+
+.categories h2{
+    margin-bottom:30px;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:50px;
+    border-radius:15px;
+}
+
+.products{
+    padding:50px;
+    text-align:center;
+}
+
+.product-grid{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+}
+
+.product-card{
+    background:white;
+    width:250px;
+    padding:15px;
+    border-radius:15px;
+}
+
+.product-img{
+    height:180px;
+    background:#E9D7D7;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.product-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+footer{
+    background:#F8DCDC;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+.hero-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:15px;
+}
+.hero-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    color:#E78C8C;
+    margin-top:10px;
+}
+
+.product-card{
+    background:white;
+    width:250px;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+button{
+    background:#F8B9B9;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    margin-right:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+/* ===== REGISTRO ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===== BODY ===== */
+body{
+    font-family:'Poppins',sans-serif;
+    background:#FFF9F2;
+}
+
+/* ===== TOP BAR ===== */
+.top-bar{
+    background:#F8DCDC;
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+}
+
+/* ===== NAV ===== */
+nav{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#D8B26E;
+}
+
+ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:#444;
+}
+
+.icons{
+    font-size:20px;
+}
+
+/* ===== HERO ===== */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:55px;
+    color:#E78C8C;
+}
+
+.hero-text p{
+    margin:20px 0;
+}
+
+button{
+    background:#F8B9B9;
+    border:none;
+    padding:12px 25px;
+    border-radius:20px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.btn-secondary{
+    background:white;
+    border:1px solid #F8B9B9;
+}
+
+.hero-image{
+    width:500px;
+    height:320px;
+    background:#E9D7D7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px;
+}
+
+.hero-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+/* ===== BENEFITS ===== */
+.benefits{
+    display:flex;
+    justify-content:space-around;
+    background:white;
+    padding:20px;
+}
+
+/* ===== CATEGORIES ===== */
+.categories{
+    padding:50px;
+    text-align:center;
+}
+
+.categories h2{
+    margin-bottom:30px;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    color:#E78C8C;
+}
+
+/* ===== PRODUCTS ===== */
+.products{
+    padding:50px;
+    text-align:center;
+}
+
+.product-grid{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.product-card{
+    background:white;
+    width:250px;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.product-img{
+    height:180px;
+    background:#E9D7D7;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.product-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#F8DCDC;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* ===================================================== */
+/* ==================== REGISTRO ======================== */
+/* ===================================================== */
+
+.registro-page{
+    height:100vh;
+    display:flex;
+}
+
+/* LADO IZQUIERDO */
+.registro-info{
+    width:50%;
+    background:linear-gradient(135deg,#F8B9B9,#E78C8C);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:60px;
+}
+
+.registro-info h1{
+    font-size:40px;
+}
+
+.registro-info p{
+    margin-top:15px;
+    font-size:16px;
+}
+
+.registro-iconos{
+    margin-top:30px;
+}
+
+/* LADO DERECHO */
+.registro-box{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#FFF9F2;
+}
+
+/* TÍTULO */
+.titulo-registro{
+    text-align:center;
+    margin-bottom:15px;
+    color:#E78C8C;
+}
+
+/* FORMULARIO */
+.registro-box form{
+    background:white;
+    padding:25px;
+    width:350px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction:column;
+}
+
+.registro-box label{
+    margin-top:10px;
+    font-size:14px;
+}
+
+.registro-box input{
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin-top:5px;
+}
+
+.registro-box button{
+    margin-top:20px;
+    background:#F8B9B9;
+    border:none;
+    padding:12px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.registro-box button:hover{
+    background:#f29e9e;
+}
+
+/* LINK INICIO SESIÓN */
+.login-link-top{
+    text-align:center;
+    margin-top:15px;
+    font-size:14px;
+}
+
+.login-link-top a{
+    color:#E78C8C;
+    text-decoration:none;
+}
+/* ===== CARRITO ===== */
+
+.carrito-total{
+    margin-top:40px;
+}
+
+.carrito-total h2{
+    color:#E78C8C;
+    margin-bottom:20px;
+}
+
+#contador-carrito{
+    color:#444;
+    font-weight:bold;
+}

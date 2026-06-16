@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador - L&P Fashion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top-bar">
+        Panel de Administración 📦
+    </div>
+
+    <section class="registro-page">
+
+        <div class="registro-info">
+
+            <h1>L&P Fashion</h1>
+
+            <p>
+                Agrega nuevos productos a la tienda.
+            </p>
+
+        </div>
+
+        <div class="registro-box">
+
+            <h2 class="titulo-registro">
+                Nuevo Producto
+            </h2>
+
+            <form id="formProducto">
+
+                <label>Nombre</label>
+                <input type="text" id="nombre">
+
+                <label>Precio</label>
+                <input type="number" id="precio">
+
+                <label>Ruta imagen</label>
+                <input type="text" id="imagen"> <label>Categoría</label>
+<select id="categoria">
+    <option value="Mujer">Mujer</option>
+    <option value="Hombre">Hombre</option>
+    <option value="Accesorios">Accesorios</option>
+    <option value="Zapatos">Zapatos</option>
+    <option value="Ofertas">Ofertas</option>
+    <option value="Novedades">Novedades</option>
+</select>
+
+<label>Tallas</label>
+<input type="text" id="talla" placeholder="S,M,L o 36,37,38">
+
+<label>Colores</label>
+<input type="text" id="color" placeholder="Negro,Rosa,Blanco">
+
+                <button type="submit">
+                    Agregar producto
+                </button>
+
+            </form>
+
+            <p id="mensaje"></p>
+
+        </div>
+
+    </section>
+
+    <script src="admin.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra - L&P Fashion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top-bar">
+        📦 Datos de envío
+    </div>
+
+    <section class="registro-page">
+
+        <div class="registro-info">
+
+            <h1>L&P Fashion</h1>
+
+            <p>
+                Completa tus datos para recibir tu pedido.
+            </p>
+
+        </div>
+
+        <div class="registro-box">
+
+            <h2 class="titulo-registro">
+                Información de entrega
+            </h2>
+
+            <form id="formCheckout">
+
+                <label>Nombre completo</label>
+                <input type="text" id="nombre" required>
+
+                <label>Dirección</label>
+                <input type="text" id="direccion" required>
+
+                <label>Ciudad</label>
+                <input type="text" id="ciudad" required>
+
+                <label>Teléfono</label>
+                <input type="text" id="telefono" required>
+
+                <button type="submit">
+                    Confirmar pedido
+                </button>
+
+            </form>
+
+            <p id="mensaje"></p>
+
+        </div>
+
+    </section>
+
+    <script src="checkout.js"></script>
+
+</body>
+
+</html>
